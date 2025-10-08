@@ -28,6 +28,8 @@ for (let i = 0; i < teachers.length; i++) {
 const indexEd = teachers.indexOf('Ed');
 if (indexEd !== -1) {
   teachers.splice(indexEd, 1);
+}else {
+  console.log("Errore: 'Ed' non è stato trovato nell'array.");
 }
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
@@ -39,4 +41,10 @@ for (let i = 0; i < teachers.length; i++) {
 }
 
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
-const teachersString = null;
+let teachersString = '';
+for (let i = 0; i < teachers.length; i++) {
+  teachersString += teachers[i];
+  if (i < teachers.length - 1) {
+    teachersString += ',';
+  }
+}
