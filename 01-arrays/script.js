@@ -27,7 +27,8 @@ console.log('4. Primo insegnante rimosso:', firstTeacher);
 console.log('4. Array dopo la rimozione del primo insegnante:', teachers); 
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
-
+teachers.push('Vanessa');
+console.log('5. Array dopo l\'aggiunta di Vanessa:', teachers);
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
