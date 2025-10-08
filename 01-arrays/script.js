@@ -34,7 +34,8 @@ teachers.unshift('Sarah');
 console.log('6. Array dopo l\'aggiunta di Sarah:', teachers);
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+const lewisIndex = teachers.indexOf('Lewis');
+console.log('7. Indice di Lewis:', lewisIndex);
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
