@@ -17,7 +17,9 @@ console.log('1. Quarto insegnante:', fourthTeacher);
 teachers[4] = 'Patrick';
 console.log('2. Array dopo la sostituzione del quinto insegnante:', teachers);
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+const lastTeacher = teachers.pop();
+console.log('3. Ultimo insegnante rimosso:', lastTeacher); 
+console.log('3. Array dopo la rimozione dell\'ultimo insegnante:', teachers);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
