@@ -30,7 +30,8 @@ console.log('4. Array dopo la rimozione del primo insegnante:', teachers);
 teachers.push('Vanessa');
 console.log('5. Array dopo l\'aggiunta di Vanessa:', teachers);
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
-
+teachers.unshift('Sarah');
+console.log('6. Array dopo l\'aggiunta di Sarah:', teachers);
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
 const lewisIndex = null;
